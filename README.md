@@ -13,7 +13,7 @@ Materials required:  Arduino UNO, Servo Motor, LDRs (Light Sensors) , Resistors.
 
 
 ## 2. SNAKE ROBOT USING ARDUINO
-This snake robot is made with arduino, servo motors, sensors and PCB. 
+This snake robot is made using arduino, servo motors, sensors and PCB. 
 The design of the snake is made by 3d printing and servo motors are connected such that some moves longitudinally and vertically.
 Small camera is attached to this bot, which can travel anywhere. This can be controlled by an android app using bluetooth. And the suitable code is written
 
@@ -21,6 +21,12 @@ Small camera is attached to this bot, which can travel anywhere. This can be con
 
 
 
+## 3. IoT BASED SMART DUSTBIN
+This project is to monitor whether the Dustbin is full or not and if full then notify the owner through a notification on their phone and to open or close automatically.
+Software requirements: Blynk app, Arduino IDE
+Hardware requirements: Arduino nano, Wifi module, Ultrasonic Sensor, Servo motor, IR sensor module.
+Connecting all components to the arduino board with wires. And uploading suitable code to Arduino Uno. And configuring the Blynk app and connect to the Wifi and press play button.
 
+     This project is very useful to keep the places clean. It helps the owner by triggering when the bin is full.
 
 
