@@ -30,3 +30,11 @@ Connecting all components to the arduino board with wires. And uploading suitabl
      This project is very useful to keep the places clean. It helps the owner by triggering when the bin is full.
 
 
+## 4. Generate Electricity by Walking Power Generator Floor Tiles Project
+This project starts with the designing. Designing can be done in many softwares such as solid works, autocad etc..and then fabricating the system.
+Materials required: Gears, shaft, generator motor, racks, springs.
+It uses the motion of the footstep to generate power with the help of metallic racks. These are mounted on the upper panel and these are pressed against the optimised gearing. 
+The gear is used transfer the power to the generator motors. And it has springs which helps the platform to get back to original position.
+
+     This projecct is very useful at almost all places. We can produce power automatically by just walking. We can actually save many resources by using this project. 
+ 
