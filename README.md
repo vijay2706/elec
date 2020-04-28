@@ -38,3 +38,19 @@ The gear is used transfer the power to the generator motors. And it has springs 
 
      This projecct is very useful at almost all places. We can produce power automatically by just walking. We can actually save many resources by using this project. 
  
+ 
+ ## 5. THIRD EYE FOR BLIND
+ This is very simple project but it is very much useful to blind people. This is made with five ultrasonic sensors, blind people can detect objets in  five dimensional view around them. These five modules are connectec to differen parts of body. Among them, two for both shoulders, another two for both knees and one for the hand. When the sensor detects obstacle the device will notify th user through vibrations and sound beeps. The intensity of beeeping increases with decrease in distance and this is a fully automated device.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
