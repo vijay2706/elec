@@ -43,12 +43,33 @@ The gear is used transfer the power to the generator motors. And it has springs 
  This is very simple project but it is very much useful to blind people. This is made with five ultrasonic sensors, blind people can detect objets in  five dimensional view around them. These five modules are connectec to differen parts of body. Among them, two for both shoulders, another two for both knees and one for the hand. When the sensor detects obstacle the device will notify th user through vibrations and sound beeps. The intensity of beeeping increases with decrease in distance and this is a fully automated device.
  
  
+ ## 6. ARDUINO BASED SMARTPHONE CHARGING CONTROLLER
+   Components Required: Arduino UNO, LCD display, Rotary encoder, 5V relay module, transistor, Breadboard, charging adapter.
+    Connect the IN1 Pin of the Relay Module to Pin 12 of Arduino,the rotary encoder, its CLK, DT and SW pins are connected to Pins 10, 11 and 2 of Arduino UNO, the LCD, Pins 8 through 3 of Arduino are connected to RS, E, D4 – D7 of the LCD.
+    After making the necessary connections as per the circuit diagram, upload the code to Arduino and turn on the power supply.You will get Hours (HH), Minutes (MM), Seconds (SS) on the 16×2 LCD Display. Set the desired time.and after that countdown reaches "0", the rely is turned off(power to adapter is off).
+   
+       Most of us forget that we put our mobile to charge and we don't remove it even after battery full. This effects the lifetime of the battery. In this case you can plug in your phone to the charger, set the time for which your phone gets charged and forget as the project will automatically disconnect power to the charger.
  
  
- 
- 
- 
- 
+ ## 7. METAL DETECTOR CIRCUIT
+   Components Required: TDA0161 Proximity Detector IC,Capacitors, Resistors, Potentiometer, NPN Transistor, Buzzer, LED.
+ The LC Circuit, which consists of L1 (coil) and C1, is the main metal detector part of the circuit. With the help of this LC Circuit, which is also called as Tank Circuit or Tuned Circuit, the TDA0161 IC acts as an oscillator and oscillates at a particular frequency.
+ When the LC circuit detects any resonating frequency from any metal which is near to it, electric field will be created which will lead to induces current in the coil and changes in the signal flow through the coil.When the metal is detected, the LC circuit will have changed signal.
+ The changed signal is given to the proximity detector (TDA 0161), which will detect the change in the signal and react accordingly. The output of the proximity sensor will less than 1mA when there is no metal detected and it will be around 10mA (usually greater than 8mA) when coil is near to the metal.
+ When the output pin is high, the resistor will provide positive voltage to transistor. Transistor will be turned on and LED will glow (not shown in the circuit) and buzzer will be activated.
+
+  ## 8. LINE FOLLOWER ROBOT
+  Components Required: Arduino UNO,L293D Motor Driver IC, Geared Motors, Robot Chassis, IR Sensor Module, Power supply.
+  The IR sensors detect the black line, which consists of IR LED and Photodiode. They are placed in a reflective way i.e. side – by – side so that whenever they come in to proximity of a reflective surface, the light emitted by IR LED will be detected by Photo diode.
+   As the reflectance of the light coloured surface is high, the infrared light emitted by IR LED will be maximum reflected and will be detected by the Photodiode.
+   In case of black surface, which has a low reflectance, the light gets completely absorbed by the black surface and doesn’t reach the photodiode.
+ The two IR Sensors are placed on the either side of the black line on the floor. In order to turn right, the motor on the right side of the robot is slowed down using PWM, while the motor on the left side is run at normal speed and vice versa.
+
+
+      These are used for automation process in industries, military applications and consumer applications. They work as automatic guided vehicles.
+  
+
+
  
  
  
