@@ -69,9 +69,32 @@ The gear is used transfer the power to the generator motors. And it has springs 
       These are used for automation process in industries, military applications and consumer applications. They work as automatic guided vehicles.
   
 
-
+## 9. FARADAY'S GUITAR
+   Here is an electronic project that demonstrates Faraday’s law of electromagnetic induction and gives musical output. The law talks about electromagnetic induction and production of electromotive force (EMF) across a conductor when it is exposed to a varying magnetic field.
+ The circuit is built around transistors BC549 (T1 and T2), low-power audio amplifier LM386 (IC1), a speaker (LS1) and a few other components. The circuit is powered by 12V battery. An on/off toggle switch (S1) is used to switch on the circuit.
  
  
+ ## 10. IoT BASED ACCIDENT PREVENTION AND TRACKING
+ Components Required: LCD Display, Drowse sensors(IR sensors), LM358 Comparator, NXP RD25 (Microcontroller), Buzzer, Analog to Digital Converter, 3-axis accelerometer, GSM & GPRS Module, Power supply.
+ This project involves measurement of eye blink using IR sensor and head movement using accelerometer. The IRtransmitter is used to transmit the infrared rays in our eye. 
+ The IR receiver is used to receive the reflected infrared rays of eye. If the eye is closed then the output of IR receiver would be high ,otherwise the IR receiver output is low. 
+ To know whether the eye is in closing or opening position. The output is provided to a logic circuit for alarm indication and status will displayed on LCD display. 
+ Accelerometer is placed on driver fore-head it measures tilt angle of the drivers in vertical either forward or backward direction and left or right direction from the driver knee. 
+ If tilting angle exceeds certain threshold range, This output is give to logic circuit to indicate the alarm and status is displayed on LCD.
+ The subject (night drivers) drowsiness can be effectively measured based on eye blink monitoring system.If drowsiness is detected then automatic responses from designed embedded system is possible such as alarm and reducing the speed of vehicle.
+ The GSM module involved in the designed system is used to effectively track the location of the vehicle. The location of vehicle and nearby emergency service facilities are effectively displayed on the portable android devices of host device and embedded device through Google Maps.
  
+  ## 11. AUTOMATED SOIL TESTING DEVICE
+   Components Required: Microcontroller, Liquid Crystal Display, ADC, Signal Conditioning, Sensor, Wireless Trans-receiver, I/O Interface.
+   Whenever a farmer wants to analyze the soil fertility, he needs to take the soil sample of about 150g and 60ml of water should be added to the soil sample, and allow the sample to settle down. The sensor will be placed in the sample. Here copper electrodes are used as sensor which measures the ionic particles present in the soil and converts it in to electrical signal. The electrical signal is amplified using signal conditioning and this amplified signal is sent to microcontroller in the form of digital signal from ADC. The microcontroller plays a key role in processing data received from the sensor, where it compares the data already pre-stored with the sensor output signal. The microcontroller after comparison gives the output and the values are displayed on the LCD display. The output not only provides the information on fertility present in the soil but also suggests crops to be grown on that soil. The wireless trans-receiver transmits the data to a remote location or designated authority in the agriculture department for further analysis & suggestions.
+   
+    This is very useful for farmers to check the fertility of soil and decide what crops can be grown.
  
+ ## 12. MUSIC REACTIVE LED STRIP
+ Components Required:Arduino NANO, PCB Board,9v Battery,Heat Shrink Tube,LED strip,Sound Sensor,IRFZ44N MOSFET,BC547 Transistor.
+ The microcontroller gives a signal to the connected Transistor’s Base and it drives an N-Channel MOSFET. And this MOSFET drives the higher loads like LED strips. The Audio sensor’s out pin gives a signal. Then it is taken through Arduino. If the signal is in a certain limit then only the led strip will run.If the Condenser mic didn’t get a signal then the sensor module doesn’t give output. So, in this case, the LED strip will not run. This process repeats over and over.
+ 
+ ## 13. RFID DOOR ACCESS CONTROL SYSTEM USING 8051
+  A RFID based Door Lock or Access Control System is based on some simple concepts. We store a set of RFID card data in our system. When the person with the right RFID card (compatible to data preloaded in our program/system) come and swipes his RFID tag, access will be granted. When the person with the wrong RFID card (whose data is not loaded in our system) swipes his RFID tag, access will be denied. 
+ The unique ID code in the RFID card is read by the circuit and displayed on the 16×2 LCD display. Tx pin of the RFID module is connected to Port 3.5 of the microcontroller. The microcontroller receives data from the RFID module through this channel. 
  
