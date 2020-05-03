@@ -53,6 +53,9 @@ The gear is used transfer the power to the generator motors. And it has springs 
  ## 5. THIRD EYE FOR BLIND
  https://create.arduino.cc/projecthub/muhammedazhar/third-eye-for-the-blind-8c246d
  
+ ![project 5](https://user-images.githubusercontent.com/62617598/80908260-1f3f0780-8d3c-11ea-927e-fd23073e7788.gif)
+
+ 
  This is very simple project but it is very much useful to blind people. This is made with five ultrasonic sensors, blind people can detect objets in  five dimensional view around them. These five modules are connectec to differen parts of body. Among them, two for both shoulders, another two for both knees and one for the hand. When the sensor detects obstacle the device will notify th user through vibrations and sound beeps. The intensity of beeeping increases with decrease in distance and this is a fully automated device.
  
  
