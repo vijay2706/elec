@@ -61,7 +61,7 @@ The gear is used transfer the power to the generator motors. And it has springs 
     Connect the IN1 Pin of the Relay Module to Pin 12 of Arduino,the rotary encoder, its CLK, DT and SW pins are connected to Pins 10, 11 and 2 of Arduino UNO, the LCD, Pins 8 through 3 of Arduino are connected to RS, E, D4 – D7 of the LCD.
     After making the necessary connections as per the circuit diagram, upload the code to Arduino and turn on the power supply.You will get Hours (HH), Minutes (MM), Seconds (SS) on the 16×2 LCD Display. Set the desired time.and after that countdown reaches "0", the rely is turned off(power to adapter is off).
    
-       Most of us forget that we put our mobile to charge and we don't remove it even after battery full. This effects the lifetime of the battery. In this case you can plug in your phone to the charger, set the time for which your phone gets charged and forget as the project will automatically disconnect power to the charger.
+       Most of us forget that we put our mobile to charge and we don't remove it even after battery full. This effects the lifetime of the battery. In this case you can plug in your phone to the charger, set the time for which your phone gets charged and forget as the project will automatically disconnect power to the charger. 
  
  
  ## 7. METAL DETECTOR CIRCUIT
