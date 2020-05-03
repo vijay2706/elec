@@ -29,6 +29,8 @@ Small camera is attached to this bot, which can travel anywhere. This can be con
 ## 3. IoT BASED SMART DUSTBIN
 https://www.youtube.com/watch?v=LKnq1SnlGaM&t=262s
 
+![project 3](https://user-images.githubusercontent.com/62617598/80908224-d5562180-8d3b-11ea-96b5-0f02c3bf9688.gif)
+
 This project is to monitor whether the Dustbin is full or not and if full then notify the owner through a notification on their phone and to open or close automatically.
 Software requirements: Blynk app, Arduino IDE
 Hardware requirements: Arduino nano, Wifi module, Ultrasonic Sensor, Servo motor, IR sensor module.
