@@ -18,6 +18,10 @@ Materials required:  Arduino UNO, Servo Motor, LDRs (Light Sensors) , Resistors.
 ## 2. SNAKE ROBOT USING ARDUINO
 https://www.youtube.com/watch?v=abMJAapfmeo
 
+![snake robot](https://user-images.githubusercontent.com/62617598/80908452-97f29380-8d3d-11ea-9f3d-b1ae0070f022.jpg)
+
+
+
 This snake robot is made using arduino, servo motors, sensors and PCB. 
 The design of the snake is made by 3d printing and servo motors are connected such that some moves longitudinally and vertically.
 Small camera is attached to this bot, which can travel anywhere. This can be controlled by an android app using bluetooth. And the suitable code is written
