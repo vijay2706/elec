@@ -70,6 +70,10 @@ The gear is used transfer the power to the generator motors. And it has springs 
  
  
  ## 7. METAL DETECTOR CIRCUIT
+ https://www.electronicshub.org/metal-detector-circuit/
+ 
+ ![circuit dig of project 7](https://user-images.githubusercontent.com/62617598/80908381-14d13d80-8d3d-11ea-8093-a7c9aa1263b6.jpg)
+
    Components Required: TDA0161 Proximity Detector IC,Capacitors, Resistors, Potentiometer, NPN Transistor, Buzzer, LED.
  The LC Circuit, which consists of L1 (coil) and C1, is the main metal detector part of the circuit. With the help of this LC Circuit, which is also called as Tank Circuit or Tuned Circuit, the TDA0161 IC acts as an oscillator and oscillates at a particular frequency.
  When the LC circuit detects any resonating frequency from any metal which is near to it, electric field will be created which will lead to induces current in the coil and changes in the signal flow through the coil.When the metal is detected, the LC circuit will have changed signal.
