@@ -79,6 +79,8 @@ The gear is used transfer the power to the generator motors. And it has springs 
   ## 8. LINE FOLLOWER ROBOT
   https://www.electronicshub.org/arduino-line-follower-robot/
   
+  ![project 8](https://user-images.githubusercontent.com/62617598/80908333-ab512f00-8d3c-11ea-8614-9fb3ef61be64.gif)
+  
   Components Required: Arduino UNO,L293D Motor Driver IC, Geared Motors, Robot Chassis, IR Sensor Module, Power supply.
   The IR sensors detect the black line, which consists of IR LED and Photodiode. They are placed in a reflective way i.e. side – by – side so that whenever they come in to proximity of a reflective surface, the light emitted by IR LED will be detected by Photo diode.
    As the reflectance of the light coloured surface is high, the infrared light emitted by IR LED will be maximum reflected and will be detected by the Photodiode.
