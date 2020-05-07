@@ -1,7 +1,7 @@
 # ELEC CLUB
 # PROJECTS
 
-## 1. ARDUINO SOLAR TRACKER
+## 1. ARDUINO SOLAR TRACKER 
 https://www.electronicshub.org/arduino-solar-tracker/
 
 In modern solar tracking systems,the solar panels are fixed on a structure that moves according to the position of sun.
